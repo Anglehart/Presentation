@@ -27,9 +27,7 @@
 			<div class="slides">
 				<section data-markdown>
 					## TypeScript overview
-
-					Presentation by Boris Kobzarev
-
+					Presentation by Boris Kobzarev  
 					RS School 2020Q1
 				</section>
 				<section data-markdown>
@@ -49,7 +47,7 @@
 						- JavaScript is TypeScript <!-- .element: class="fragment" data-fragment-index="3" -->
 						- TypeScript is portable <!-- .element: class="fragment" data-fragment-index="4" -->
 
-						![TS-JS](/assets/slide3-1.png) <!-- .element: class="fragment" data-fragment-index="5" -->
+						![TS-JS](/assets/slide3-1.png) <!-- .element: class="fragment" data-fragment-index="4" -->
 					</script>
 				</section>
 				<section data-markdown class="slide4">
@@ -83,6 +81,20 @@
 						![Refactor](/assets/slide6-1.png)
 					</script>
 				</section>
+				<section data-markdown class="slide7">
+					<script type="text/template">
+						## Types
+						![Refactor](/assets/slide7-1.png)
+
+						```javascript
+											let someVar: any = 'hello';
+											let x: number = 10;
+											let hello: string = 'hello world';
+											let isValid: boolean = true;
+											let list: number[] = [10, 20, 30];
+						```
+					</script>
+				</section>
 			</div>
 		</div>
 
@@ -99,7 +111,8 @@
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/highlight/highlight.js' },
 					{ src: 'plugin/notes/notes.js', async: true }
-				]
+				],
+				showNotes: false
 			});
 		</script>
 	</body>
