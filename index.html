@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>TypeScript Overview</title>
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
@@ -28,7 +28,7 @@
 				<section data-markdown>
 					## TypeScript overview
 					Presentation by Boris Kobzarev
-					
+
 					RS School 2020Q1
 				</section>
 				<section data-markdown>
@@ -37,18 +37,16 @@
 						TypeScript is JavaScript for application-scale development
 
 						![TS-JS diagram](./assets/slide2-1.png)<!-- .element: class="fragment" data-fragment-index="1" -->
-						![Anders Hejlsberg](./assets/slide2-2.jpg)<!-- .element: class="fragment" data-fragment-index="2" -->
 					</script>
 				</section>
-				<section data-markdown>
+				<section data-markdown class="slide5">
 					<script type="text/template">
-						## Features of TypeScript
-						- TypeScript is just JavaScript <!-- .element: class="fragment" data-fragment-index="1" -->
-						- TypeScript supports other JS libraries <!-- .element: class="fragment" data-fragment-index="2" -->
-						- JavaScript is TypeScript <!-- .element: class="fragment" data-fragment-index="3" -->
-						- TypeScript is portable <!-- .element: class="fragment" data-fragment-index="4" -->
-
-						![TS-JS](./assets/slide3-1.png) <!-- .element: class="fragment" data-fragment-index="4" -->
+						## Why Use TypeScript?
+						- Code easier to understand<!-- .element: class="fragment" data-fragment-index="1" -->
+						- Code easier to refactor<!-- .element: class="fragment" data-fragment-index="2" -->
+						- Less bugs<!-- .element: class="fragment" data-fragment-index="3" -->
+						- Less boilerplate tests<!-- .element: class="fragment" data-fragment-index="4" -->
+						- Aids the developer in having the correct workflow<!-- .element: class="fragment" data-fragment-index="5" -->
 					</script>
 				</section>
 				<section data-markdown class="slide4">
@@ -61,15 +59,15 @@
 						- TS also embraces features like generics and type annotations that aren’t a part of the ES6 specification <!-- .element: class="fragment" data-fragment-index="4" -->
 					</script>
 				</section>
-				<section data-markdown class="slide5">
+				<section data-markdown>
 					<script type="text/template">
-						## Why Use TypeScript?
-						- **Compilation** − JavaScript is an interpreted language.
-						- **Strong Static Typing** − JavaScript is not strongly typed.
-						- TypeScript **supports type definitions** for existing JavaScript libraries.
-						- TypeScript **supports Object Oriented Programming** concepts.
+						## Features of TypeScript
+						- TypeScript supports other JS libraries <!-- .element: class="fragment" data-fragment-index="1" -->
+						- TypeScript is portable <!-- .element: class="fragment" data-fragment-index="2" -->
+						-	TypeScript is Object-Oriented language <!-- .element: class="fragment" data-fragment-index="3" -->
+						- TypeScript is just JavaScript <!-- .element: class="fragment" data-fragment-index="4" -->
 
-						![Refactor](./assets/slide5-1.png)<!-- .element: class="fragment" data-fragment-index="1" -->
+						![TS-JS](./assets/slide3-1.png) <!-- .element: class="fragment" data-fragment-index="4" -->
 					</script>
 				</section>
 				<section data-markdown class="slide6">
@@ -79,22 +77,7 @@
 						- The TypeScript Compiler
 						- The TypeScript Language Service
 
-						![Refactor](./assets/slide6-1.png)
-					</script>
-				</section>
-				<section data-markdown class="slide7">
-					<script type="text/template">
-						## Types
-						![Refactor](./assets/slide7-1.png)
-
-						```javascript
-											let someVar: any = 'hello';
-											let x: number = 10;
-											let hello: string = 'hello world';
-											let isValid: boolean = true;
-											let list: number[] = [10, 20, 30];
-						```
-						<!-- .element: class="fragment" data-fragment-index="1" -->
+						![Component](./assets/slide6-1.png)
 					</script>
 				</section>
 			</div>
